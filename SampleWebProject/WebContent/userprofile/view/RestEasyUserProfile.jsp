@@ -27,6 +27,7 @@ function getMessage() {
         	$("#message").text(userProfile);
         },
         error: function() {
+        	$("#message").text("ERROR");
         }
 	});
 	
